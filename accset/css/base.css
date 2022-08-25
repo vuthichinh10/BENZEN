@@ -1,0 +1,53 @@
+:root{
+    --main-color : 	#0394d5  ;
+    --text-color : rgb(106, 104, 104)  ;
+    --title-color:#333 ;
+    --black-color : #0000  ;
+    --link-color :  #007c8c ;
+    --white-color : #ffff  ;
+    --hover-color : #1baaeb ;
+}
+
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 2.4rem ;
+    font-family: 'roboto' , sans-serif;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 80% ;
+    margin: 0 auto;
+}
+.grid_full{
+    width: 100%;
+}
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column_3{
+    width: 33.33333333%;
+    padding: 0 16px;
+}
+.column_4{
+    width: 25%;
+    padding: 0 16px ;
+}
+.column_img{
+    width: 66.67%;
+}
+.button_hover:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+   opacity:0.8 ;
+
+}
+.link_hover:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
