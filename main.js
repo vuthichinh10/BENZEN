@@ -85,7 +85,7 @@ window.addEventListener( "load" , function(){
         DotItem[index].classList.add('active')
         
     }
-setInterval(runSlide,6000);
+setInterval(runSlide,5000);
 
 })
 //slide_product
@@ -126,3 +126,6 @@ function ChanceProduct(Y) {
         indexProduct-- ;
     }
 }
+
+
+
