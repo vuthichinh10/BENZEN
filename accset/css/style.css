@@ -545,6 +545,11 @@ font-size: 1.2rem;
 .footer_p p {
     color: var(--text-color);
 }
+.logo_white img{
+    width:100%;
+    margin-left:-16px ;
+}
+
 .inf_other{
     margin-right:-10px ;
     margin-left:-10px ;

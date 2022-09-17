@@ -12,6 +12,7 @@
     box-sizing: inherit;
 }
 html{
+    min-width: 1500px;
     font-size: 62.5%;
     line-height: 2.4rem ;
     font-family: 'roboto' , sans-serif;

@@ -21,14 +21,14 @@ ContainerModal.addEventListener('click',function (event){
 
 // slide
 window.addEventListener( "load" , function(){
-    const PrevBtn = this.document.querySelector('.prev-icon')
+    const PrevBtn = this.document.querySelector('.prev-icon');
     const NextBtn = this.document.querySelector('.next-icon')
     const DotItem = this.document.querySelectorAll('.dot_item')
     const ItemImg = this.document.querySelectorAll('.item_img')
     const MainSlide = this.document.querySelector('.main_slider')
     const ListItem = this.document.querySelector('.list_items')
     const SliderWrap = this.document.querySelector('.slide_wrapper')
-    const widthOfItem = ItemImg[0].offsetWidth ;
+    const widthOfItem = ItemImg[0].offsetWidth;
     const lengthImg = ItemImg.length ;
     let position = 0;
     let index = 0 ;
